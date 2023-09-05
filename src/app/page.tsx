@@ -1,9 +1,15 @@
-import Image from 'next/image'
+import React from 'react'
+import {Navbar,Hero,Shopping, Footer} from '../components/index'
 
 export default function Home() {
   return (
-   <div>
-    
-   </div>
+   <React.Fragment>
+    <Hero/>
+    <Shopping/>
+    <hr />
+    <hr />
+    <Footer/>
+   </React.Fragment>
+   
   )
 }
